@@ -40,8 +40,14 @@ quest = input ("What is your quest")
 color = input ("What is your favourite color?")
 
 print ("Ah, so your name is %s, your quest is %s,"\
-"and your favourite color is %s." % (name, quest, color)) """
+"and your favourite color is %s." % (name, quest, color)) 
 
+from datetime import datetime
+now = datetime.now()
+
+print ('%s:%s:%s %s/%s/%s' % (now.hour, now.minute, now.second, now.month, now.day, now.year))"""
+
+# Like BEDMAS => Not, And, OR
 
 
        
