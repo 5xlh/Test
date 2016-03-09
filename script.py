@@ -90,16 +90,51 @@ print (the_flying_circus()) """
 
 #Piglatin traslator
 
-pyg = 'ay'
+##pyg = 'ay'
+##
+##original = input('Enter a word:') # input fxn takes feedback
+##word = original.lower() # store orginal word is lower case
+##first = word[0] # takes the first letter of the word
+##new_word = word[1:len(word)]+first+pyg # get rid of the first letter adds it to the end and applies the suffix
+##
+##if len(original) > 0 and original.isalpha(): # check for numbers
+##    print (new_word)
+##else:
+##    print ('empty') # empty printed if numbers or empty
 
-original = input('Enter a word:') # input fxn takes feedback
-word = original.lower() # store orginal word is lower case
-first = word[0] # takes the first letter of the word
-new_word = word[1:len(word)]+first+pyg # get rid of the first letter adds it to the end and applies the suffix
+##word = input ("lets do this?")
+##pyg = "ay"
+##
+##if len(word)>0 and word.isalpha:
+##    org=word.lower()
+##    first=word[0]
+##    new_word= org[1:len(word)]+first+pyg
+##    print(new_word)
+##else:
+##    print ("where")
 
-if len(original) > 0 and original.isalpha(): # check for numbers
-    print (new_word)
-else:
-    print ('empty') # empty printed if numbers or empty
+"""random"""
+##print ("Hi I'm the profile generator. Let's make your profile!")
+##name = input ("What's your name?")
+##if len(name)>0:
+##    age = input ("What's your age?")
+##    if len(age)>0:
+##        like = input("What do you like to do?")
+##        if len(like)>0:
+##            print ("Hi, my name is %s, I am %s and I like %s." % (name, age, like))
+##        else:
+##            print("don't you like do stuff?")
+##    else:
+##        print("No age entered!")
+##else:
+##    print("No name entered!")
 
-
+"""definitions"""
+##def cube(number):
+##    return number**3
+##
+##def by_three(number):
+##   if number%3<1:
+##    return cube(number)   
+##   else: 
+##       return False
