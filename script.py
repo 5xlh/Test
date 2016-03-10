@@ -170,4 +170,58 @@ print (the_flying_circus()) """
 ##def trip_cost (city, days, spending_money):
 ##    return rental_car_cost(days)+hotel_cost(days)+plane_ride_cost(city)+spending_money
 ##
-##print (trip_cost("Los Angeles",5,600))   
+##print (trip_cost("Los Angeles",5,600))
+
+""" shut down computer?"""
+##d=input("do you want to shut down the computer?")
+##def computer(d):
+##  if d=="yes":
+##      return ("shutting down")
+##  elif d=="no":
+##      return ("shut down aborted")
+##  else:
+##      return ("no input")
+##
+##print (computer(d))
+
+"""list """
+##numbers = [5, 6, 7, 8]
+##
+##print ("Adding the numbers at indices 0 and 2...")
+##print( numbers[0] + numbers[2])
+##print ("Adding the numbers at indices 1 and 3...")
+### Your code here!
+##print (numbers[1]+numbers[3])
+
+""" replace a list item"""
+##zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
+### Last night our zoo's sloth brutally attacked 
+###the poor tiger and ate it whole.
+##
+### The ferocious sloth has been replaced by a friendly hyena.
+##zoo_animals[2] = "hyena" # replaces item 3 or index 2
+##
+### What shall fill the void left by our dear departed tiger?
+### Your code here!
+##zoo_animals[3] = "elephant" # replaces item 4 or idex 3
+
+""" add to the list"""
+##suitcase = [] 
+##suitcase.append("sunglasses")
+##
+### Your code here!
+##suitcase.append("shirt")
+##suitcase.append("shorts")
+##suitcase.append("jacket")
+##
+##list_length =len(suitcase) # Set this to the length of suitcase
+##
+##print "There are %d items in the suitcase." % (list_length)
+##print suitcase
+
+""" slice an index"""
+##animals = "catdogfrog"
+##cat  = animals[:3]   # The first three characters of animals
+##dog  = animals[3:6]              # The fourth through sixth characters
+##frog = animals[6:10]              # From the seventh character to the end
+##
