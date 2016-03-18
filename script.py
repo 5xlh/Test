@@ -292,3 +292,13 @@ print (the_flying_circus()) """
 ##inventory['gold']=inventory['gold']+50
 ##
 ##print (inventory)
+
+""" Locate even numbers"""
+##a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+##
+##for numbers in a:
+##    if numbers % 2 == 0:
+##        print (numbers)
+##print ("we just printed the even numbers!! ")
+
+
