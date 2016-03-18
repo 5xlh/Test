@@ -273,22 +273,32 @@ print (the_flying_circus()) """
 ##print (zoo_animals)
 
 """list and dictionaries"""
-inventory = {
-    'gold' : 500,
-    'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
-    'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
-}
+##inventory = {
+##    'gold' : 500,
+##    'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+##    'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+##}
+##
+### Adding a key 'burlap bag' and assigning a list to it
+##inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+##
+### Sorting the list found under the key 'pouch'
+##inventory['pouch'].sort() 
+##
+### Your code here
+##inventory['pocket']=['seashell','strange berry', 'lint']
+##inventory['backpack'].sort()
+##inventory['backpack'].remove('dagger')
+##inventory['gold']=inventory['gold']+50
+##
+##print (inventory)
 
-# Adding a key 'burlap bag' and assigning a list to it
-inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+""" Locate even numbers"""
+##a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+##
+##for numbers in a:
+##    if numbers % 2 == 0:
+##        print (numbers)
+##print ("we just printed the even numbers!! ")
 
-# Sorting the list found under the key 'pouch'
-inventory['pouch'].sort() 
 
-# Your code here
-inventory['pocket']=['seashell','strange berry', 'lint']
-inventory['backpack'].sort()
-inventory['backpack'].remove('dagger')
-inventory['gold']=inventory['gold']+50
-
-print (inventory)
